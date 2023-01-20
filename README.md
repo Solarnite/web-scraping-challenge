@@ -3,12 +3,12 @@
 # Background
 For this assignment we are to use our knowlege of web-scraping to help answer some questions based on some Mars data. Through identifying HTML elements on a website and finding thier respective id's and class attributes, that information was extracted and parsed with the use of two automated browing tools, Splinter and Beautiful Soup.
 
-# Part 1: Scrape Titles and Preview Text from Mars News
+# [Part 1: Scrape Titles and Preview Text from Mars News](https://static.bc-edx.com/data/web/mars_news/index.html)
 Automated browsing (with Splinter) was used to visit the Mars news site, and the HTML code was extracted (with Beautiful Soup).
 
 The titles and preview text of the news articles were scraped and extracted into a list of dictionaries.
 
-# Part 2: Scrape and Analyze Mars Weather Data
+# [Part 2: Scrape and Analyze Mars Weather Data](https://static.bc-edx.com/data/web/mars_facts/temperature.html)
 
 The HTML table was extracted into a Pandas DataFrame. Either Pandas or Splinter and Beautiful Soup were used to scrape the data. The columns have the correct headings and data types.
 
